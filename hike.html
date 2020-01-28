@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>JS Hike Calculator</title>
+         <link rel="stylesheet"
+              href="style.css">
+         
+         <script type="text/javascript">
+        // this is the function that allows the information input by the visiter to be calculated     
+            function calculate(){
+        
+        //this is what connects the html information to the Javascript, in order for the entered information to be calculated.        
+             var weight= document.getElementById ("weightinpounds").value; 
+             var trail= document.getElementById ("trail").value;
+        
+        //these are the equations that Javascript will use to calculate the main result        
+            var poundstokg= weight/2.2;
+            var permin= poundstokg*.07;
+            var total= permin *trail; 
+                
+             document.getElementById ("empty").innerHTML=total
+            
+            }
+             
+         </script>
+        
+        <style>
+        
+            body{
+                background-image: url(images/trail2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        
+        <p> Enter your bodyweight in pounds (including any weight you'll be carrying): </p>
+        <input type="text" name="weightinpounds" id="weightinpounds"><br> <br> 
+        <br> <br>
+        <select id="trail">
+        <option value=540> Old Rag Trail </option> 
+        <option value=90> Upper Hawksbill Trail</option> 
+        <option value=90> Bunny Trail</option> 
+        <option value=90> SMAD Trail</option> 
+        </select> <br> <br>
+        <br> <br>
+        <button class="button" onclick="calculate()">
+        Calculate 
+        </button>
+        <br>
+        <br>
+        <div id="empty"></div>
+    </body>
+    
+</html> 
