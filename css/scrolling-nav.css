@@ -1,0 +1,98 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  padding: 154px 0 100px;
+   
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+#mainNav{
+    background-color: white;
+}
+
+#about{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+container{
+    font: black;
+}
+#Graphic{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.center{
+    padding-left: 150px;
+}
+
+.centertwo{
+    padding-left:60px;
+}
+@font-face{
+    font-family: Wintersoul;
+    src: url(Wintersoul.ttf);
+}
+
+h2{
+    font-family: Wintersoul;
+    font-size: 70px;
+}
+
+p{
+    font-family: Roboto Light;
+}
+
+#InteractiveDesign{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.pics{
+    padding-left: 190px;
+}
+
+a:link{
+    color:black;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+a:visited{
+    color: skyblue;
+    
+}
+
+#experience{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    background-color:aliceblue;
+}
+
+.btn{
+    font: Roboto;
+}
